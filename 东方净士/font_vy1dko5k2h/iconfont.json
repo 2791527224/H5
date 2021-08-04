@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3545309",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "5058400",
+      "name": "耳机",
+      "font_class": "erji",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "5932105",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "8231300",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "10614538",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "12025867",
+      "name": "电话 (1)",
+      "font_class": "dianhua1",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "15161695",
+      "name": "电 话",
+      "font_class": "dianhua2",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "18362171",
+      "name": "置顶",
+      "font_class": "zhiding",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    }
+  ]
+}

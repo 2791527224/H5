@@ -1,0 +1,2172 @@
+/* <!-- 1155以上 -->
+<!-- 1154-1025 -->
+<!-- 1024-769 -->
+<!-- 768以下--> */ 
+header{
+  padding: 0 15px;
+}
+.except{
+  padding: 0 15px;
+}
+.science{
+  padding: 0 15px;
+  margin-top: 330px;
+}
+.distribution{
+  padding: 0 15px;
+}
+.professional{
+  padding: 0 15px;
+}
+.nfer{
+  padding: 0 15px;
+}
+.information{
+  padding: 0 15px;
+}
+.footer{
+  padding: 0px 15px;
+  background: #202020;
+}
+/* 侧边开始 */
+.cebuid{
+  display: block;
+  width: 56px;
+  height: 257px;
+  z-index: 999;
+  position: fixed;
+  top: 50%;
+  right: 0;
+}
+.cebuid li{
+  background: rgba(9,91, 217, 0.8);
+  margin-bottom: 3px;
+  position: relative;
+}
+.cebuid li a{
+  font-size: 0.9375rem;
+  padding-right: 5px;
+  color: #fff;
+  line-height: 56px;
+}
+.cebuid li p{
+  font-size: 0.9375rem;
+  padding-right: 5px;
+  color: #fff;
+  line-height: 56px;
+}
+.cebuid li:hover{
+  background: #0747a6;
+}
+.cebuid li  i{
+  margin: auto 12px;
+  font-size: 32px !important;
+
+}
+
+#nomk{
+  z-index: 999;
+  width: 180px;
+  background: #0747a6;
+  margin-bottom: 3px;
+}
+#nomk a{
+  font-size: 0.9375rem;
+  padding-right: 5px;
+  color: #fff;
+  line-height: 56px;
+}
+#nomk p{
+  font-size: 0.9375rem;
+  padding-right: 5px;
+  color: #fff;
+  line-height: 56px;
+}
+#nomk a i{
+  margin: 0px 15px;
+  font-size: 2rem;
+}
+#nomk{
+  position: absolute;
+  top: 0;
+  right: -185px;
+}
+.cebuid li:hover #nomk{
+  right: 0;
+}
+/* 侧边结束 */
+
+@media screen and (min-width:1155px){
+  /* 头部开始 */
+  .header-top{
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .header-top i{
+    line-height: 50px;
+    font-size: 1.352rem;
+    color: #999999;
+  }
+  .header-top i:last-of-type{
+    margin-left: 16px;
+    font-size: 1.325rem;
+  }
+  .header-top span{
+    font-size: 1.25rem;
+    line-height: 50px;
+    color: #0747a6;
+  }
+  .hea{
+    width: 16.6279%;
+  }
+  .der{
+    width: 6.9025%;
+  }
+  .header-bottom{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .header-bottom h1{
+    width: 15.5689%;
+    margin: 30px auto 23px auto;
+  }
+  .header-bottom nav{
+    width: 73.3961%;
+    float: right;
+  }
+  .header-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .header-bottom li{
+    width: 9.3240%;
+    line-height: 100px;
+    position: relative;
+    text-align: right;
+  }
+  .header-bottom li:nth-of-type(3){
+    width: 11.3054%;
+  }
+  .header-bottom li a{
+    color: #000;
+    font-size: 1rem;
+  }
+  .header-bottom li i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #cccccc;
+  }
+  .header-bottom li:hover a{
+    color: orangered;
+  }
+  /* 头部结束 */
+  /* <!-- 专业除醛开始 --> */
+    .cept{
+      position: absolute;
+      top:654px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 1100px;
+      margin: 0 auto;
+      overflow: hidden;
+      background: #0747a6;
+    }
+    .flt{
+      width: 50%;
+    }
+    .flt video{
+      width: 100%;
+      height: 100%;
+    }
+    .ext{
+      width: 42%;
+      margin-left: 5.2727%;
+      padding: 56px 0 40px 0;
+      color: #fff;
+      position: relative;
+    } 
+    .ext h3{
+      width: 90.5454%;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 30px;
+      margin-bottom: 25px;
+    }
+    .ext p{
+      width: 85.4545%;
+      font-size: 15px;
+      line-height: 24px;
+      margin-bottom: 48px;
+    }
+    .ext a{
+      color: #234ea3;
+      font-size: 0.875rem;
+      padding: 16px 53px;
+      border-radius: 30px;
+      background: #fff;
+    }
+    .ext i{
+      display: block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/un_03.png);
+      position: absolute;
+      top: 52px;
+      right: 76px;
+    }
+  /* <!-- 专业除醛结束 --> */
+  /* <!-- 科技除醛开始 --> */
+  .nice{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .nice-top{
+    text-align: center;
+  }
+  .nice-top h2{
+    width: 250px;
+    margin: 0 auto;
+    font-size: 1.75rem;
+    line-height: 43px;
+    color: #333;
+    position: relative;
+  }
+  .nice-top h2 i{
+    position: absolute;
+    top: 2px;
+    right: -8px;
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/unj_07.png);
+  }
+  .nice-top span{
+    line-height: 29px;
+  }
+  .nice-top img{
+    margin: auto auto 5px 5px;
+  }
+  /* <!-- 科技除醛结束 --> */
+  /* <!-- 经销商服务开始 --> */
+  .bution{
+    width: 1101px;
+    height: 392px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .bution img{
+    width: 100%;
+    height: 392px;
+  }
+  .dist{
+    width: 631px;
+    background: #0747a6;
+    position: absolute;
+    top: 93px;
+    right: -52px;
+    padding: 17px 0px 35px 50px;
+    color: #fff;
+  }
+  .dist h2{
+    font-size: 1.875rem;
+    line-height: 78px;
+    position: relative;
+  }
+  .dist p{
+    width: 72.2282%;
+    font-size: 0.875rem;
+    line-height: 26px;
+    margin-bottom: 47px;
+  }
+  .dist a{
+    color: #0747a6;
+    font-size: 0.875rem;
+    line-height: 44px;
+    background: #fff;
+    padding: 16px 40px;
+    border-radius: 26px;
+  }
+  .dist i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/un_03.png);
+    position: absolute;
+    top: 20px;
+    left: 152px;
+  }
+  /* <!-- 经销商服务结束 -->  */
+  /* 专业开始 */
+  .fession{
+    width: 1101px;
+    margin: 0 auto;
+  }
+  .prof{
+    width: 100%;
+  }
+  .prof h2{
+    font-size: 1.5625rem;
+    line-height: 38px;
+    color: #333333;
+    position: relative;
+  }
+  .prof p{
+    font-size: 0.875rem;
+    line-height: 64px;
+    color: #333333;
+  }
+  .prof p a{
+    font-size: 0.875rem;
+  }
+  .prof p span img{
+    margin-left: 6px;
+    margin-bottom: 24px;
+
+  }
+  .prof h2 i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/unj_07.png);
+    position: absolute;
+    top: 2px;
+    left: 204px;
+  }
+  /* 专业结束 */
+  /* 工厂展示开始 */
+  .dwsx{
+    width: 1101px;
+    margin: 0 auto;
+    margin-top: 52px;
+    margin-bottom: 100px;
+  }
+  .dwsx-top{
+    text-align: center;
+  }
+  .dwsx-top h2{
+    width: 11.8074%;
+    font-size: 1.75rem;
+    line-height: 42px;
+    color: #333;
+    margin: 0 auto;
+    position: relative;
+  }
+  .dwsx-top h2 i{
+    position: absolute;
+    top: 2px;
+    right: -8px;
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/unj_07.png);
+  }
+  .dwsx-top span{
+    font-size: 1rem;
+    line-height: 42px;
+    margin-right: 5px;
+    margin-bottom: 24px;
+  }
+  .dwsx-top img{
+    margin-bottom: 13px;
+  }
+  /* 工厂展示结束 */
+  /* 最新资讯开始 */
+  .mation{
+    width: 1101px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .mation-left{
+    width: 31.2443%;
+    position: relative;
+  }
+  .mation-left h2{
+    font-size: 1.75rem;
+    padding-left: 30px;
+    line-height: 132px;
+    background: #0748a6;
+    padding-bottom: 102px;
+    color: #fff;
+  }
+  .mation-left h2 i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/un_03.png);
+    position: absolute;
+    top: 47px;
+    left: 144px;
+  }
+  .mation-left img{
+    width: 86%;
+    position: absolute;
+    top: 106px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .mation-left p{
+    font-size: 1rem;
+    line-height: 25px;
+    background: #f5f5f5;
+    padding: 60px 27px 92px 30px;
+  }
+  .mation-left a{
+    font-size: 1rem;
+    padding: 10px 35px;
+    border: 2px solid #0747a6;
+    border-radius: 25px;
+    position: absolute;
+    top: 350px;
+    right: 30px;
+  }
+  .mation-right{
+    width: 66.9391%;
+    background: #f5f5f5;
+    padding: 43px 0px;
+    position: relative;
+  }
+  .mation-right .rtye{
+    font-size: 1rem;
+    position: absolute;
+    top: 54px;
+    right: 40px;
+  }
+  .rtye img{
+    margin-left: 4px;
+  }
+  .mation-right h2{
+    margin-left: 40px;
+    font-size: 1.75rem;
+    line-height: 60px;
+    color: #0747a6;
+    position: relative;
+  }
+  .mation-right h2 i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/火狐_03.png);
+    position: absolute;
+    top: 11px;
+    left: 118px;
+  }
+  .mation-right li{
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .mation-right li img{
+    transition: .8s;
+  }
+  .mation-right li:hover img{
+    transform: scale(1.1);
+  }
+  .mation-right li h3{
+    font-size: 1rem;
+    line-height: 40px;
+  }
+  .mation-right li p{
+    line-height: 24px;
+    font-size: 1rem;
+      white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 90%;
+  }
+  .mation-right span{
+    line-height: 48px;
+    font-size: 1rem;
+  }
+  .mation-right li div:first-of-type{
+    margin-top: 10px;
+  }
+  .mation-right li div:last-of-type{
+    position: relative;
+    margin-left: 20px;
+  }
+  .mation-right li i{
+    display: block;
+    width: 57px;
+    height: 9px;
+    background: url(../img/wefh.jpg);
+    position: absolute;
+    top: 120px;
+    right: 40px;
+  }
+  .mation-right li:hover i{
+    background: url(../img/weft.jpg);
+  }
+  /* 最新资讯结束 */
+  /* 底部开始 */
+  .end{
+    width: 100%;
+    padding: 50px 0px;
+  }
+  .end-top{
+    width: 100%;
+    border-top: 1px solid #313131;
+    border-bottom: 1px solid #313131;
+    position: relative;
+  } 
+  .end-top h1{
+    width: 18%;
+    margin-left: 40px;
+    height: 102px;
+    position: relative;
+  }
+  .end-top h1 img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .end-top nav{
+    width: 73%;
+    position: absolute;
+    top: 0;
+    right: 40px;
+  }
+  .end-top ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .end-top ul li a{
+    font-size: 1rem;
+    line-height: 102px;
+    color: #fff;
+  }
+  .end-top li:hover a{
+    color: orangered;
+  }
+  .end-center{
+    border-bottom: 1px solid #313131;
+  }
+  .fgyj{
+    margin-left: 40px;
+    margin-bottom: 48px;
+  }
+  .fgyj p{
+    width: 71%;
+    font-size: 0.9375rem;
+    line-height: 25px;
+    color: #909090;
+    margin: 45px 0px 20px 0px;
+  }
+  .fgyj i{
+    margin-right: 14px;
+    color: #909090;
+  }
+  .fgj{
+    margin-right: 117px;
+    margin-top: 66px;
+    position: relative;
+  }
+  .fgj p{
+    font-size: 0.875rem;
+    line-height: 25px;
+    color: #909090;
+    margin-left: 72px;
+  }
+  .fgj span{
+    font-size: 1.625rem;
+    color: #fff;
+    line-height: 34px;
+  }
+  .fgj i{
+    font-size: 4rem;
+    color: #8c8c8c;
+    position: absolute;
+    top: 23px;
+    right: -87px;
+  }
+  .end-bottom{
+    margin: 32px 40px 28px 40px;
+  }
+  .end-bottom p{
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #909090;
+  }
+  .end-bottom span{
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #909090;
+  }
+  /* 底部结束 */
+}
+@media screen and (min-width:1025px) and (max-width:1154px){
+   /* 头部开始 */
+   .header-top{
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #eeeeee;
+  }
+  .header-top i{
+    line-height: 50px;
+    font-size: 1.352rem;
+    color: #999999;
+  }
+  .header-top i:last-of-type{
+    margin-left: 16px;
+    font-size: 1.325rem;
+  }
+  .header-top span{
+    font-size: 1.25rem;
+    line-height: 50px;
+    color: #0747a6;
+  }
+  .hea{
+    width: 18.6279%;
+  }
+  .der{
+    width: 7.9025%;
+  }
+  .header-bottom{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .header-bottom h1{
+    width: 18.5689%;
+    margin: 30px auto 94px auto;
+  }
+  .header-bottom nav{
+    width: 85.3961%;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+  }
+  .header-bottom ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .header-bottom li{
+    width: 9.3240%;
+    line-height: 90px;
+    position: relative;
+    text-align: right;
+  }
+  .header-bottom li:nth-of-type(3){
+    width: 11.3054%;
+  }
+  .header-bottom li a{
+    color: #000;
+    font-size: 1rem;
+  }
+  .header-bottom li i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 4px;
+    height: 4px;
+    background: #cccccc;
+  }
+  .header-bottom li:hover a{
+    color: orangered;
+  }
+  /* 头部结束 */
+  /* <!-- 专业除醛开始 --> */
+    .cept{
+      position: absolute;
+      top:100%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+      background: #0747a6;
+    }
+    .flt{
+      width: 50%;
+    }
+    .flt video{
+      width: 100%;
+      height: 100%;
+    }
+    .ext{
+      width: 42%;
+      margin-left: 5.2727%;
+      padding: 56px 0 40px 0;
+      color: #fff;
+      position: relative;
+    } 
+    .ext h3{
+      width: 90.5454%;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 30px;
+      margin-bottom: 25px;
+    }
+    .ext p{
+      width: 85.4545%;
+      font-size: 15px;
+      line-height: 24px;
+      margin-bottom: 48px;
+    }
+    .ext a{
+      color: #234ea3;
+      font-size: 0.875rem;
+      padding: 16px 53px;
+      border-radius: 30px;
+      background: #fff;
+    }
+    .ext i{
+      display: block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/un_03.png);
+      position: absolute;
+      top: 52px;
+      right: 9.5373%;
+    }
+  /* <!-- 专业除醛结束 --> */
+  /* <!-- 科技除醛开始 --> */
+  .nice{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .nice-top{
+    text-align: center;
+  }
+  .nice-top h2{
+    width: 250px;
+    margin: 0 auto;
+    font-size: 1.75rem;
+    line-height: 43px;
+    color: #333;
+    position: relative;
+  }
+  .nice-top h2 i{
+    position: absolute;
+    top: 2px;
+    right: -8px;
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/unj_07.png);
+  }
+  .nice-top span{
+    line-height: 29px;
+  }
+  .nice-top img{
+    margin: auto auto 5px 5px;
+  }
+  /* <!-- 科技除醛结束 --> */
+  /* <!-- 经销商服务开始 --> */
+  .bution{
+    width: 100%;
+    height: 392px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .bution img{
+    width: 100%;
+    height: 392px;
+  }
+  .dist{
+    width: 631px;
+    background: #0747a6;
+    position: absolute;
+    top: 93px;
+    right: -52px;
+    padding: 17px 0px 35px 50px;
+    color: #fff;
+  }
+  .dist h2{
+    font-size: 1.875rem;
+    line-height: 78px;
+    position: relative;
+  }
+  .dist p{
+    width: 72.2282%;
+    font-size: 0.875rem;
+    line-height: 26px;
+    margin-bottom: 47px;
+  }
+  .dist a{
+    color: #0747a6;
+    font-size: 0.875rem;
+    line-height: 44px;
+    background: #fff;
+    padding: 16px 40px;
+    border-radius: 26px;
+  }
+  .dist i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/un_03.png);
+    position: absolute;
+    top: 20px;
+    left: 152px;
+  }
+  /* <!-- 经销商服务结束 -->  */
+  /* 专业开始 */
+  .fession{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .prof{
+    width: 100%;
+  }
+  .prof h2{
+    font-size: 1.5625rem;
+    line-height: 38px;
+    color: #333333;
+    position: relative;
+  }
+  .prof p{
+    font-size: 0.875rem;
+    line-height: 64px;
+    color: #333333;
+  }
+  .prof p a{
+    font-size: 0.875rem;
+  }
+  .prof p span img{
+    margin-left: 6px;
+    margin-bottom: 24px;
+
+  }
+  .prof h2 i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/unj_07.png);
+    position: absolute;
+    top: 2px;
+    left: 204px;
+  }
+  /* 专业结束 */
+  /* 工厂展示开始 */
+  .dwsx{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 52px;
+    margin-bottom: 100px;
+  }
+  .dwsx-top{
+    text-align: center;
+  }
+  .dwsx-top h2{
+    width: 11.8074%;
+    font-size: 1.75rem;
+    line-height: 42px;
+    color: #333;
+    margin: 0 auto;
+    position: relative;
+  }
+  .dwsx-top h2 i{
+    position: absolute;
+    top: 2px;
+    right: -8px;
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/unj_07.png);
+  }
+  .dwsx-top span{
+    font-size: 1rem;
+    line-height: 42px;
+    margin-right: 5px;
+    margin-bottom: 24px;
+  }
+  .dwsx-top img{
+    margin-bottom: 13px;
+  }
+  /* 工厂展示结束 */
+  /* 最新资讯开始 */
+  .mation{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .mation-left{
+    width: 31.2443%;
+    position: relative;
+  }
+  .mation-left h2{
+    font-size: 1.75rem;
+    padding-left: 30px;
+    line-height: 132px;
+    background: #0748a6;
+    padding-bottom: 102px;
+    color: #fff;
+  }
+  .mation-left h2 i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/un_03.png);
+    position: absolute;
+    top: 47px;
+    left: 144px;
+  }
+  .mation-left img{
+    width: 86%;
+    position: absolute;
+    top: 106px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .mation-left p{
+    font-size: 14px;
+    line-height: 25px;
+    background: #f5f5f5;
+    padding: 60px 27px 92px 30px;
+  }
+  .mation-left a{
+    font-size: 1rem;
+    padding: 10px 35px;
+    border: 2px solid #0747a6;
+    border-radius: 25px;
+    position: absolute;
+    top: 350px;
+    right: 30px;
+  }
+  .mation-right{
+    width: 66.9391%;
+    background: #f5f5f5;
+    padding: 43px 0px;
+    position: relative;
+  }
+  .mation-right .rtye{
+    font-size: 1rem;
+    position: absolute;
+    top: 54px;
+    right: 40px;
+  }
+  .rtye img{
+    margin-left: 4px;
+  }
+  .mation-right h2{
+    margin-left: 40px;
+    font-size: 1.75rem;
+    line-height: 60px;
+    color: #0747a6;
+    position: relative;
+  }
+  .mation-right h2 i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/火狐_03.png);
+    position: absolute;
+    top: 11px;
+    left: 118px;
+  }
+  .mation-right li{
+    width: 100%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .mation-right li img{
+    transition: .8s;
+  }
+  .mation-right li:hover img{
+    transform: scale(1.1);
+  }
+  .mation-right li h3{
+    font-size: 1rem;
+    line-height: 40px;
+  }
+  .mation-right li p{
+    line-height: 24px;
+    font-size: 1rem;
+      white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 90%;
+  }
+  .mation-right span{
+    line-height: 48px;
+  }
+  .mation-right li div:first-of-type{
+    margin-top: 10px;
+  }
+  .mation-right li div:last-of-type{
+    position: relative;
+    margin-left: 20px;
+    width: 60%;
+  }
+  .mation-right li i{
+    display: block;
+    width: 57px;
+    height: 9px;
+    background: url(../img/wefh.jpg);
+    position: absolute;
+    top: 120px;
+    right: 40px;
+  }
+  .mation-right li:hover i{
+    background: url(../img/weft.jpg);
+  }
+  /* 最新资讯结束 */
+  /* 底部开始 */
+  .end{
+    width: 100%;
+    padding: 50px 0px;
+  }
+  .end-top{
+    width: 100%;
+    border-top: 1px solid #313131;
+    border-bottom: 1px solid #313131;
+    position: relative;
+  } 
+  .end-top h1{
+    width: 18%;
+    margin-left: 40px;
+    height: 102px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .end-top h1 img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .end-top nav{
+    width: 73%;
+    position: absolute;
+    top: 50px;
+    right: 103px;
+  }
+  .end-top ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .end-top ul li a{
+    font-size: 1rem;
+    line-height: 102px;
+    color: #fff;
+  }
+  .end-top li:hover a{
+    color: orangered;
+  }
+  .end-center{
+    border-bottom: 1px solid #313131;
+  }
+  .fgyj{
+    margin-left: 40px;
+    margin-bottom: 48px;
+  }
+  .fgyj p{
+    width: 71%;
+    font-size: 0.9375rem;
+    line-height: 25px;
+    color: #909090;
+    margin: 45px 0px 20px 0px;
+  }
+  .fgyj i{
+    margin-right: 14px;
+    color: #909090;
+  }
+  .fgj{
+    margin-right: 117px;
+    margin-top: 66px;
+    position: relative;
+  }
+  .fgj p{
+    font-size: 0.875rem;
+    line-height: 25px;
+    color: #909090;
+    margin-left: 72px;
+  }
+  .fgj span{
+    font-size: 1.625rem;
+    color: #fff;
+    line-height: 34px;
+  }
+  .fgj i{
+    font-size: 4rem;
+    color: #8c8c8c;
+    position: absolute;
+    top: 23px;
+    right: -87px;
+  }
+  .end-bottom{
+    margin: 32px 40px 28px 40px;
+  }
+  .end-bottom p{
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #909090;
+  }
+  .end-bottom span{
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #909090;
+  }
+  /* 底部结束 */ 
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    /* 头部开始 */  
+    .header-top{
+      width: 100%;
+      margin: 0 auto;
+      border-bottom: 1px solid #eeeeee;
+    }
+    .header-top i{
+      line-height: 50px;
+      font-size: 1.352rem;
+      color: #999999;
+    }
+    .header-top i:last-of-type{
+      margin-left: 16px;
+      font-size: 1.325rem;
+    }
+    .header-top span{
+      font-size: 1.25rem;
+      line-height: 50px;
+      color: #0747a6;
+    }
+    .hea{
+      width: 22.6279%;
+    }
+    .der{
+      width: 9.9025%;
+    }
+    .header-bottom{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+    }
+    .header-bottom h1{
+      width: 24.5689%;
+      margin: 10px auto 10px auto; 
+    }
+    .header-bottom nav{
+      position: absolute;
+      top: 67px;
+      right: -206px;
+      width: 190px;
+      background: #fff;
+      z-index: 9999;
+    }
+    .header-bottom li{
+      font-size: 16px;
+      padding: 10px 15px;
+      border-bottom: 1px solid #8c8c8c;
+    }
+    .header-bottom li:last-of-type{
+      border: none;
+    }
+    .header-bottom li a{
+      color: #000;
+      font-size: 1rem;
+    }
+    .header-bottom li:hover a{
+      color: orangered;
+    }
+    /* 头部结束 */
+  .button{
+    
+    position: absolute;
+    top: 24px;
+    right: 0;
+    transition: 0.5s;
+  }
+  .button p{
+    display: block;
+    width: 24px;
+    height: 4px;
+    background: #0747a6;
+    margin-bottom: 3px;
+  }
+    /* <!-- 专业除醛开始 --> */
+      .cept{
+        position: absolute;
+        top:86%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 721px;
+        height: 290px;
+        margin: 0 auto;
+        overflow: hidden;
+        background: #0747a6;
+      }
+      .flt{
+        width: 49.9307%;
+      }
+      .flt video{
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+      .ext{
+        width: 42%;
+        margin-left: 20px;
+        padding: 20px 0 40px 0;
+        color: #fff;
+        position: relative;
+      } 
+      .ext h3{
+        width: 100%;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 66px;
+      }
+      .ext p{
+        width: 85.4545%;
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 46px;
+      }
+      .ext p span{
+        display: none;
+      }
+      .ext a{
+        color: #234ea3;
+        font-size: 0.875rem;
+        padding: 16px 40px;
+        border-radius: 30px;
+        background: #fff;
+      }
+      .ext i{
+        display: block;
+        width: 13px;
+        height: 13px;
+        background: url(../img/un_03.png);
+        position: absolute;
+        top: 37px;
+        right: -1.5373%;
+      }
+    /* <!-- 专业除醛结束 --> */
+    /* <!-- 科技除醛开始 --> */
+    .nice{
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+    .nice-top{
+      text-align: center;
+    }
+    .nice-top h2{
+      width: 250px;
+      margin: 0 auto;
+      font-size: 1.75rem;
+      line-height: 43px;
+      color: #333;
+      position: relative;
+    }
+    .nice-top h2 i{
+      position: absolute;
+      top: 2px;
+      right: -8px;
+      display: block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/unj_07.png);
+    }
+    .nice-top span{
+      line-height: 29px;
+    }
+    .nice-top img{
+      margin: auto auto 5px 5px;
+    }
+    /* <!-- 科技除醛结束 --> */
+    /* <!-- 经销商服务开始 --> */
+    .bution{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      margin-bottom: 70px;
+    }
+    .bution img{
+      width: 100%;
+      height: 392px;
+    }
+    .dist{
+      width: 100%;
+      background: #0747a6;
+      padding: 17px 0px 35px 0px;
+      color: #fff;
+    }
+    .dist h2{
+      margin-left: 50px;
+      font-size: 1.875rem;
+      line-height: 78px;
+      position: relative;
+    }
+    .dist p{
+      margin-left: 50px;
+      width: 72.2282%;
+      font-size: 0.875rem;
+      line-height: 26px;
+      margin-bottom: 47px;
+    }
+    .dist a{
+      margin-left: 50px;
+      color: #0747a6;
+      font-size: 0.875rem;
+      line-height: 44px;
+      background: #fff;
+      padding: 16px 40px;
+      border-radius: 26px;
+    }
+    .dist i{
+      display: block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/un_03.png);
+      position: absolute;
+      top: 20px;
+      left: 152px;
+    }
+    /* <!-- 经销商服务结束 -->  */
+    /* 专业开始 */
+    .fession{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .prof{
+      width: 100%;
+    }
+    .prof h2{
+      font-size: 1.5625rem;
+      line-height: 38px;
+      color: #333333;
+      position: relative;
+    }
+    .prof p{
+      font-size: 0.875rem;
+      line-height: 64px;
+      color: #333333;
+    }
+    .prof p a{
+      font-size: 0.875rem;
+    }
+    .prof p span img{
+      margin-left: 6px;
+      margin-bottom: 24px;
+  
+    }
+    .prof h2 i{
+      display: block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/unj_07.png);
+      position: absolute;
+      top: 2px;
+      left: 204px;
+    }
+    /* 专业结束 */
+    /* 工厂展示开始 */
+    .dwsx{
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 52px;
+      margin-bottom: 100px;
+    }
+    .dwsx-top{
+      text-align: center;
+    }
+    .dwsx-top h2{
+      width: 17.8074%;
+      font-size: 1.75rem;
+      line-height: 42px;
+      color: #333;
+      margin: 0 auto;
+      position: relative;
+    }
+    .dwsx-top h2 i{
+      position: absolute;
+      top: 2px;
+      right: -8px;
+      display: block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/unj_07.png);
+    }
+    .dwsx-top span{
+      font-size: 1rem;
+      line-height: 42px;
+      margin-right: 5px;
+      margin-bottom: 24px;
+    }
+    .dwsx-top img{
+      margin-bottom: 13px;
+    }
+    /* 工厂展示结束 */
+    /* 最新资讯开始 */
+    .mation{
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+    .mation-left{
+      width: 100%;
+      position: relative;
+      float: none;
+    }
+    .mation-left h2{
+      font-size: 1.75rem;
+      padding-left: 30px;
+      line-height: 132px;
+      background: #0748a6;
+      padding-bottom: 180px;
+      color: #fff;
+    }
+    .mation-left h2 i{
+      display: block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/un_03.png);
+      position: absolute;
+      top: 47px;
+      left: 144px;
+    }
+    .mation-left img{
+      width: 95%;
+      height: 65%;
+      position: absolute;
+      top: 106px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .mation-left p{
+      font-size: 14px;
+      line-height: 25px;
+      background: #f5f5f5;
+      padding: 174px 27px 60px 30px;
+    }
+    .mation-left a{
+      font-size: 1rem;
+      padding: 10px 35px;
+      border: 2px solid #0747a6;
+      border-radius: 25px;
+      position: absolute;
+      top: 524px;
+      right: 30px;
+    }
+    .mation-right{
+      float: none;
+      width: 100%;
+      background: #f5f5f5;
+      padding: 43px 0px;
+      position: relative;
+    }
+    .mation-right .rtye{
+      font-size: 1rem;
+      position: absolute;
+      top: 54px;
+      right: 40px;
+    }
+    .rtye img{
+      margin-left: 4px;
+    }
+    .mation-right h2{
+      margin-left: 40px;
+      font-size: 1.75rem;
+      line-height: 60px;
+      color: #0747a6;
+      position: relative;
+    }
+    .mation-right h2 i{
+      display: block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/火狐_03.png);
+      position: absolute;
+      top: 11px;
+      left: 118px;
+    }
+    .mation-right li{
+      width: 100%;
+      margin-left: 40px;
+      margin-bottom: 20px;
+    }
+    .mation-right li img{
+      transition: .8s;
+    }
+    .mation-right li:hover img{
+      transform: scale(1.1);
+    }
+    .mation-right li h3{
+      font-size: 1rem;
+      line-height: 40px;
+    }
+    .mation-right li p{
+      line-height: 24px;
+      width: 100%;
+    }
+    .mation-right span{
+      line-height: 48px;
+    }
+    .mation-right li div:first-of-type{
+      margin-top: 10px;
+    }
+    .mation-right li div:last-of-type{
+      position: relative;
+      margin-left: 20px;
+    }
+    .mation-right li i{
+      display: block;
+      width: 57px;
+      height: 9px;
+      background: url(../img/wefh.jpg);
+      position: absolute;
+      top: 120px;
+      right: 40px;
+    }
+    .mation-right li:hover i{
+      background: url(../img/weft.jpg);
+    }
+    /* 最新资讯结束 */
+    /* 底部开始 */
+    .end{
+      width: 100%;
+      padding: 50px 0px;
+    }
+    .end-top{
+      width: 100%;
+      border-top: 1px solid #313131;
+      border-bottom: 1px solid #313131;
+      position: relative;
+    } 
+    .end-top h1{
+      width: 18%;
+      margin-left: 40px;
+      height: 102px;
+      margin-bottom: 50px;
+      position: relative;
+    }
+    .end-top h1 img{
+
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .opi{
+      display: none;
+    }
+    .lkj{
+      display: block;
+    }
+    .end-top nav{
+      width: 82%;
+      position: absolute;
+      top: 54px;
+      right: 25px;
+    }
+    .end-top ul{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .end-top ul li a{
+      font-size: 1rem;
+      line-height: 102px;
+      color: #fff;
+    }
+    .end-top li:hover a{
+      color: orangered;
+    }
+    .end-center{
+      border-bottom: 1px solid #313131;
+    }
+    .fgyj{
+      margin-left: 40px;
+      margin-bottom: 48px;
+    }
+    .fgyj p{
+      width: 71%;
+      font-size: 0.9375rem;
+      line-height: 25px;
+      color: #909090;
+      margin: 45px 0px 20px 0px;
+    }
+    .fgyj i{
+      margin-right: 14px;
+      color: #909090;
+    }
+    .fgj{
+      margin-right: 117px;
+      margin-top: 66px;
+      position: relative;
+    }
+    .fgj p{
+      font-size: 0.875rem;
+      line-height: 25px;
+      color: #909090;
+      margin-left: 72px;
+    }
+    .fgj span{
+      font-size: 1.625rem;
+      color: #fff;
+      line-height: 34px;
+    }
+    .fgj i{
+      font-size: 4rem;
+      color: #8c8c8c;
+      position: absolute;
+      top: 23px;
+      right: -87px;
+    }
+    .end-bottom{
+      margin: 32px 40px 28px 40px;
+    }
+    .end-bottom p{
+      font-size: 0.875rem;
+      line-height: 24px;
+      color: #909090;
+    }
+    .end-bottom span{
+      font-size: 0.875rem;
+      line-height: 24px;
+      color: #909090;
+    }
+    /* 底部结束 */ 
+}
+@media screen and (max-width:768px){
+  body{
+    min-width: 320px;
+  }
+   /* 头部开始 */  
+   .header-top{
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+  }
+  .header-top i{
+    line-height: 50px;
+    font-size: 1.352rem;
+    color: #999999;
+  }
+  .header-top i:first-of-type{
+    margin-left: 38%;
+  }
+  .header-top i:last-of-type{
+    margin-left: 16px;
+    font-size: 1.325rem;
+  }
+  .header-top span{
+    font-size: 1.25rem;
+    line-height: 50px;
+    color: #0747a6;
+  }
+  .hea{
+    width: 164px;
+  }
+  .der{
+    width: 120px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+  }
+  .header-bottom{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .header-bottom h1{
+    width: 24.5689%;
+    margin: 7px auto 7px auto; 
+  }
+  .header-bottom nav{
+    position: absolute;
+    top: 61px;
+    right: -206px;
+    width: 190px;
+    background: #fff;
+    z-index: 9999;
+  }
+  .header-bottom li{
+    font-size: 16px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #8c8c8c;
+  }
+  .header-bottom li:last-of-type{
+    border: none;
+  }
+  .header-bottom li a{
+    color: #000;
+    font-size: 1rem;
+  }
+  .header-bottom li:hover a{
+    color: orangered;
+  }
+  /* 头部结束 */
+.button{
+  
+  position: absolute;
+  top: 20px;
+  right: 0;
+  transition: 0.5s;
+}
+.button p{
+  display: block;
+  width: 24px;
+  height: 4px;
+  background: #0747a6;
+  margin-bottom: 3px;
+}
+  /* <!-- 专业除醛开始 --> */
+    .cept{
+      position: absolute;
+      top:86%;
+      left: 47%;
+      transform: translateX(-50%);
+      width: 100%;
+      height: 290px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .flt{
+      position: absolute;
+      top: 0;
+      left: -1%;
+      width: 49.9307%;
+    }
+    .flt video{
+      display: block;
+      width: 195%;
+      height: 100%;
+    }
+    .ext{
+      position: absolute;
+      top: 139%;
+      left: -1%;
+      background: #0747a6;
+      width: 106%;
+      padding: 20px 0 40px 20px;
+      color: #fff;
+      position: relative;
+      float: none;
+    } 
+    .ext h3{
+      width: 100%;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 46px;
+    }
+    .ext p{
+      width: 85.4545%;
+      font-size: 15px;
+      line-height: 24px;
+      margin-bottom: 33px;
+    }
+    .ext p span{
+      display: none;
+    }
+    .ext a{
+      color: #234ea3;
+      font-size: 0.875rem;
+      padding: 16px 40px;
+      border-radius: 30px;
+      background: #fff;
+    }
+    .ext i{
+      display: block;
+      width: 13px;
+      height: 13px;
+      background: url(../img/un_03.png);
+      position: absolute;
+      top: 37px;
+      right: -1.5373%;
+    }
+  /* <!-- 专业除醛结束 --> */
+  /* <!-- 科技除醛开始 --> */
+  .nice{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .nice-top{
+    text-align: center;
+  }
+  .nice-top h2{
+    width: 250px;
+    margin: 0 auto;
+    font-size: 1.75rem;
+    line-height: 43px;
+    color: #333;
+    position: relative;
+  }
+  .nice-top h2 i{
+    position: absolute;
+    top: 2px;
+    right: -8px;
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/unj_07.png);
+  }
+  .nice-top span{
+    line-height: 29px;
+  }
+  .nice-top img{
+    margin: auto auto 5px 5px;
+  }
+  /* <!-- 科技除醛结束 --> */
+  /* <!-- 经销商服务开始 --> */
+  .bution{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .bution img{
+    width: 100%;
+    height: 392px;
+  }
+  .dist{
+    width: 100%;
+    background: #0747a6;
+    padding: 17px 0px 35px 0px;
+    color: #fff;
+  }
+  .dist h2{
+    margin-left: 50px;
+    font-size: 1.875rem;
+    line-height: 78px;
+    position: relative;
+  }
+  .dist p{
+    margin-left: 50px;
+    width: 72.2282%;
+    font-size: 0.875rem;
+    line-height: 26px;
+    margin-bottom: 47px;
+  }
+  .dist a{
+    margin-left: 50px;
+    color: #0747a6;
+    font-size: 0.875rem;
+    line-height: 44px;
+    background: #fff;
+    padding: 16px 40px;
+    border-radius: 26px;
+  }
+  .dist i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/un_03.png);
+    position: absolute;
+    top: 20px;
+    left: 152px;
+  }
+  /* <!-- 经销商服务结束 -->  */
+  /* 专业开始 */
+  .fession{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .prof{
+    width: 100%;
+  }
+  .prof h2{
+    font-size: 1.5625rem;
+    line-height: 38px;
+    color: #333333;
+    position: relative;
+  }
+  .prof p{
+    font-size: 0.875rem;
+    line-height: 64px;
+    color: #333333;
+  }
+  .prof p a{
+    font-size: 0.875rem;
+  }
+  .prof p span img{
+    margin-left: 6px;
+    margin-bottom: 24px;
+
+  }
+  .prof h2 i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/unj_07.png);
+    position: absolute;
+    top: 2px;
+    left: 204px;
+  }
+  /* 专业结束 */
+  /* 工厂展示开始 */
+  .dwsx{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 52px;
+    margin-bottom: 100px;
+  }
+  .dwsx-top{
+    text-align: center;
+  }
+  .dwsx-top h2{
+    width: 17.8074%;
+    font-size: 1.75rem;
+    line-height: 42px;
+    color: #333;
+    margin: 0 auto;
+    position: relative;
+  }
+  .dwsx-top h2 i{
+    position: absolute;
+    top: 2px;
+    right: -8px;
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/unj_07.png);
+  }
+  .dwsx-top span{
+    font-size: 1rem;
+    line-height: 42px;
+    margin-right: 5px;
+    margin-bottom: 24px;
+  }
+  .dwsx-top img{
+    margin-bottom: 13px;
+  }
+  /* 工厂展示结束 */
+  /* 最新资讯开始 */
+  .mation{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .mation-left{
+    width: 100%;
+    position: relative;
+    float: none;
+  }
+  .mation-left h2{
+    font-size: 1.75rem;
+    padding-left: 30px;
+    line-height: 132px;
+    background: #0748a6;
+    padding-bottom: 180px;
+    color: #fff;
+  }
+  .mation-left h2 i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/un_03.png);
+    position: absolute;
+    top: 47px;
+    left: 144px;
+  }
+  .mation-left img{
+    width: 95%;
+    height: 65%;
+    position: absolute;
+    top: 106px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .mation-left p{
+    font-size: 14px;
+    line-height: 25px;
+    background: #f5f5f5;
+    padding: 174px 27px 60px 30px;
+  }
+  .mation-left a{
+    font-size: 1rem;
+    padding: 10px 35px;
+    border: 2px solid #0747a6;
+    border-radius: 25px;
+    position: absolute;
+    top: 524px;
+    right: 30px;
+  }
+  .mation-right{
+    float: none;
+    width: 100%;
+    background: #f5f5f5;
+    padding: 36px 0px;
+    position: relative;
+  }
+  .mation-right .rtye{
+    font-size: 1rem;
+    position: absolute;
+    top: 54px;
+    right: 40px;
+  }
+  .rtye img{
+    margin-left: 4px;
+  }
+  .mation-right h2{
+    margin-left: 40px;
+    font-size: 1.75rem;
+    line-height: 60px;
+    color: #0747a6;
+    position: relative;
+  }
+  .mation-right h2 i{
+    display: block;
+    width: 13px;
+    height: 13px;
+    background: url(../img/火狐_03.png);
+    position: absolute;
+    top: 11px;
+    left: 118px;
+  }
+  .mation-right li{
+    width: 100%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+  .mation-right li img{
+    width: 100%;
+    transition: .8s;
+  }
+  .mation-right li:hover img{
+    transform: scale(1.1);
+  }
+  .mation-right li h3{
+    font-size: 1rem;
+    line-height: 40px;
+  }
+  .mation-right li p{
+    line-height: 24px;
+    width: 90%;
+  }
+  .mation-right span{
+    line-height: 48px;
+  }
+  .mation-right div{
+    float: none;
+  }
+  .mation-right li div:first-of-type{
+    overflow: hidden;
+    width: 90%;
+    margin-top: 10px;
+  }
+  .mation-right li div:last-of-type{
+    position: relative;
+  }
+  .mation-right li i{
+    display: block;
+    width: 57px;
+    height: 9px;
+    background: url(../img/wefh.jpg);
+    position: absolute;
+    top: 85px;
+    right: 76px;
+  }
+  .mation-right li:hover i{
+    background: url(../img/weft.jpg);
+  }
+  /* 最新资讯结束 */
+  /* 底部开始 */
+  .end{
+    width: 100%;
+    padding: 50px 0px;
+  }
+  .end-top{
+    width: 100%;
+    border-top: 1px solid #313131;
+    border-bottom: 1px solid #313131;
+    position: relative;
+  } 
+  .end-top h1{
+    width: 18%;
+    margin-left: 40px;
+    height: 102px;
+    margin-bottom: 50px;
+    position: relative;
+  }
+  .end-top h1 img{
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .opi{
+    display: none;
+  }
+  .lkj{
+    display: block;
+  }
+  .end-top nav{
+    width: 92%;
+    position: absolute;
+    top: 54px;
+    right: 25px;
+  }
+  .end-top ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .end-top ul li a{
+    font-size: 1rem;
+    line-height: 102px;
+    color: #fff;
+  }
+  .end-top li:hover a{
+    color: orangered;
+  }
+  .end-center{
+    border-bottom: 1px solid #313131;
+  }
+  .fgyj{
+    margin-left: 40px;
+    margin-bottom: 48px;
+  }
+  .fgyj p{
+    width: 71%;
+    font-size: 0.9375rem;
+    line-height: 25px;
+    color: #909090;
+    margin: 45px 0px 20px 0px;
+  }
+  .fgyj i{
+    margin-right: 14px;
+    color: #909090;
+  }
+  .fgj{
+    margin-right: 117px;
+    margin-top: 66px;
+    position: relative;
+  }
+  .fgj p{
+    font-size: 0.875rem;
+    line-height: 25px;
+    color: #909090;
+    margin-left: 72px;
+  }
+  .fgj span{
+    font-size: 1.625rem;
+    color: #fff;
+    line-height: 34px;
+  }
+  .fgj i{
+    font-size: 4rem;
+    color: #8c8c8c;
+    position: absolute;
+    top: 23px;
+    right: -87px;
+  }
+  .end-bottom{
+    margin: 32px 40px 28px 40px;
+  }
+  .end-bottom p{
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #909090;
+  }
+  .end-bottom span{
+    font-size: 0.875rem;
+    line-height: 24px;
+    color: #909090;
+  }
+  /* 底部结束 */  
+}
